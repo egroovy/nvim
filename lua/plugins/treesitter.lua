@@ -4,7 +4,7 @@ return {
         config = function()
             require'nvim-treesitter.configs'.setup {
                 ensure_installed = { 
-                    "c",
+                    -- "c",
                     "lua",
                     "vim", 
                     "vimdoc", 
@@ -15,7 +15,7 @@ return {
                     "dockerfile",
                     "html",
                     "bash",
-                    "cpp",
+                    -- "cpp",
                     "csv",
                     "git_config",
                     "gitignore",
@@ -39,7 +39,7 @@ return {
                     "toml",
                     "tsx",
                     "yaml",
-                    "zig",
+                    -- "zig",
                 },
                 auto_install = true,
                 highlight = {
