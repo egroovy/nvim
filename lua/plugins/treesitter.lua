@@ -3,15 +3,15 @@ return {
         "nvim-treesitter/nvim-treesitter", branch = 'master', lazy = false, build = ":TSUpdate",
         config = function()
             require'nvim-treesitter.configs'.setup {
-                ensure_installed = { 
+                ensure_installed = {
                     -- "c",
                     "lua",
-                    "vim", 
-                    "vimdoc", 
-                    "query", 
-                    "markdown", 
-                    "markdown_inline", 
-                    "css", 
+                    "vim",
+                    "vimdoc",
+                    "query",
+                    "markdown",
+                    "markdown_inline",
+                    "css",
                     "dockerfile",
                     "html",
                     "bash",
@@ -20,8 +20,7 @@ return {
                     "git_config",
                     "gitignore",
                     "git_rebase",
-                    "gitcommit",
-                    "go",
+                    "gitcommit", "go",
                     "http",
                     "java",
                     "javascript",

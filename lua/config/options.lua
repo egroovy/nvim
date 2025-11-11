@@ -7,7 +7,6 @@ vim.o.wrap = false
 
 -- allow mouse mode
 vim.o.mouse = "a"
-
 -- sync os clipboard with nvim clipboard
 vim.schedule(function()
 	vim.o.clipboard = "unnamedplus"
@@ -25,10 +24,13 @@ vim.o.undofile = true
 
 -- make update time faster, used for updating swap file to protect against crashes
 vim.o.updatetime = 50
+vim.o.timeoutlen = 200
 
 -- case insensitive searching, kickstart has this so it's probably useful. not sure where exactly it applies
 vim.o.ignorecase = true
 vim.o.smartcase = true
+
+vim.o.confirm = true
 
 -- set new windows to open to the bottom and right instead of top and left
 vim.o.splitright = true
@@ -63,3 +65,4 @@ vim.diagnostic.config {
         end,
     },
 }
+
