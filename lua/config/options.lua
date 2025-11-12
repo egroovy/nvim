@@ -31,6 +31,7 @@ vim.o.ignorecase = true
 vim.o.smartcase = true
 
 vim.o.confirm = true
+vim.o.timeoutlen = 300
 
 -- set new windows to open to the bottom and right instead of top and left
 vim.o.splitright = true
