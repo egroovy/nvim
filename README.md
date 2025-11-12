@@ -1,7 +1,6 @@
 This is my Neovim config
 
 # Plugins
----
 `autopairs` - Adds closing character for symbols such as (, ", [, {  
 `blink.cmp` - Auto completion from LSP and lazydev  
 `gitsigns` - Add git symbols to gutter  
@@ -30,12 +29,11 @@ telescope - https://github.com/nvim-telescope/telescope.nvim
     - Install ripgrep for live grep  
     **MacOS install**  
     ```
-    brew install ripgrep
+       brew install ripgrep
     ```  
 treesitter - https://github.com/nvim-treesitter/nvim-treesitter  
 
 # Keybinds
----
 `vim.keymap.set('n', '<Esc>', '<cmd>nohlsearch<CR>')`  
 Maps escape to remove highlights after searching instead of typing command out  
 
@@ -44,14 +42,12 @@ Maps "jk" to return to normal mode from insert mode
 
 
 ## mini.surround
----
 `sa` - surround add (must combine with text object or motion. Ex: `saiw"` = surround inner word with quotes)  
 `sd` - delete surrounding (can combine with text object or motion but not required. You could just do `sd"` to remove the quotes around text)  
 `sr` - replace surrounding (can combine with text object or motion but not required)  
 
 
 ## Telescope
----
 `<leader>ff` - find files  
 `<leader>lg` - live grep  
 `<leader>fb` - telescope buffers (shows currently open buffers)  
@@ -60,7 +56,6 @@ Maps "jk" to return to normal mode from insert mode
 
 
 ## Treesitter
----
 Location of config: `/nvim/plugins/treesitter`  
 **Initialize Incremental selection**: `<Leader>ss`  
 - highlight text according to tree-sitter nodes
