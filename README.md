@@ -2,9 +2,9 @@ This is my Neovim config
 
 # Plugins
 ---
-`autopairs` - Adds closing character for symbols such as (, ", [, { 
-`blink.cmp` - Auto completion from LSP and lazydev 
-`gitsigns` - Add git symbols to gutter
+`autopairs` - Adds closing character for symbols such as (, ", [, {\
+`blink.cmp` - Auto completion from LSP and lazydev\
+`gitsigns` - Add git symbols to gutter\
 `lazydev` - For luaLS
 `mason` - Installing LSP servers for different languages
 `mason-lspconfig` - Configuring LSP servers
