@@ -28,9 +28,11 @@ nvim-lspconfig - https://github.com/neovim/nvim-lspconfig
 telescope - https://github.com/nvim-telescope/telescope.nvim  
     - Install ripgrep for live grep  
     **MacOS install**  
+
     ```
-       brew install ripgrep
-    ```  
+    brew install ripgrep
+    ```
+    
 treesitter - https://github.com/nvim-treesitter/nvim-treesitter  
 
 # Keybinds
