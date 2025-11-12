@@ -15,7 +15,7 @@ This is my Neovim config
 `treesitter` - Language parser for things like syntax highlighting  
 
 <details>
-    <summary>**Repo links:**</summary>
+    <summary>Repo links:</summary>
     autopairs - https://github.com/windwp/nvim-autopairs  
     blink.cmp - https://github.com/saghen/blink.cmp  
     gitsigns - https://github.com/lewis6991/gitsigns.nvim  
