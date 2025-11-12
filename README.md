@@ -14,7 +14,7 @@ This is my Neovim config
 `telescope` - Fuzzy finder  
 `treesitter` - Language parser for things like syntax highlighting  
 
-**Repo links:**
+**Repo links:**  
 autopairs - https://github.com/windwp/nvim-autopairs  
 blink.cmp - https://github.com/saghen/blink.cmp  
 gitsigns - https://github.com/lewis6991/gitsigns.nvim  
