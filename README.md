@@ -30,10 +30,7 @@ telescope - https://github.com/nvim-telescope/telescope.nvim
 
 **MacOS install**  
 
-
-    ```
     brew install ripgrep
-    ```
     
 treesitter - https://github.com/nvim-treesitter/nvim-treesitter  
 
