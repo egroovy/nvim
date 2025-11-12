@@ -26,7 +26,7 @@ mini-surround - https://github.com/nvim-mini/mini.surround
 neotab - https://github.com/kawre/neotab.nvim  
 nvim-lspconfig - https://github.com/neovim/nvim-lspconfig  
 telescope - https://github.com/nvim-telescope/telescope.nvim  
-- Install ripgrep for live grep  
+- Install ripgrep for live grep (Optional)  
 
 **MacOS install**  
 
