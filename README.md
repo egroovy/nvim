@@ -41,6 +41,11 @@ Maps escape to remove highlights after searching instead of typing command out
 `vim.keymap.set('i', 'jk', '<Esc>')`  
 Maps "jk" to return to normal mode from insert mode  
 
+`vim.keymap.set("n", "<CR>", "o<ESC>k")` 
+Insert line below and stay in normal mode
+
+`vim.keymap.set("n", "<S-CR>", "O<ESC>j"`
+Insert line above and stay in normal mode
 
 ## mini.surround
 `sa` - surround add (must combine with text object or motion. Ex: `saiw"` = surround inner word with quotes)  
