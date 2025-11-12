@@ -14,19 +14,23 @@ This is my Neovim config
 `telescope` - Fuzzy finder  
 `treesitter` - Language parser for things like syntax highlighting  
 
-**Repo links:**  
-autopairs - https://github.com/windwp/nvim-autopairs  
-blink.cmp - https://github.com/saghen/blink.cmp  
-gitsigns - https://github.com/lewis6991/gitsigns.nvim  
-lazydev - https://github.com/folke/lazydev.nvim  
-mason - https://github.com/mason-org/mason.nvim  
-mason-lspconfig - https://github.com/mason-org/mason-lspconfig.nvim  
-midnight-theme - https://github.com/dasupradyumna/midnight.nvim  
-mini-surround - https://github.com/nvim-mini/mini.surround  
-neotab - https://github.com/kawre/neotab.nvim  
-nvim-lspconfig - https://github.com/neovim/nvim-lspconfig  
-telescope - https://github.com/nvim-telescope/telescope.nvim  
-- Install ripgrep for live grep (Optional)  
+<details>
+    <summary>**Repo links:**</summary>
+    autopairs - https://github.com/windwp/nvim-autopairs  
+    blink.cmp - https://github.com/saghen/blink.cmp  
+    gitsigns - https://github.com/lewis6991/gitsigns.nvim  
+    lazydev - https://github.com/folke/lazydev.nvim  
+    mason - https://github.com/mason-org/mason.nvim  
+    mason-lspconfig - https://github.com/mason-org/mason-lspconfig.nvim  
+    midnight-theme - https://github.com/dasupradyumna/midnight.nvim  
+    mini-surround - https://github.com/nvim-mini/mini.surround  
+    neotab - https://github.com/kawre/neotab.nvim  
+    nvim-lspconfig - https://github.com/neovim/nvim-lspconfig  
+    telescope - https://github.com/nvim-telescope/telescope.nvim  
+    - Install ripgrep for live grep (Optional)  
+</details>
+
+
 
 **MacOS install**  
 
