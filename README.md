@@ -51,10 +51,10 @@ Insert line below and stay in normal mode
 `vim.keymap.set("n", "<S-CR>", "O<ESC>j"`  
 Insert line above and stay in normal mode
 
-`vim.keymap.set("n", "<leader>vf", "<cmd>lua vim.diagnostic.config({virtual_text = false})<CR>", { desc = "Toggle virtual text off"})`
+`vim.keymap.set("n", "<leader>vf", "<cmd>lua vim.diagnostic.config({virtual_lines = false})<CR>", { desc = "Toggle virtual lines off"})`
 Toggle virtual text off ('v' for virtual, 'f' for false)
 
-`vim.keymap.set("n", "<leader>vt", "<cmd>lua vim.diagnostic.config({virtual_text = true})<CR>", { desc = "Toggle virtual text on"})`
+`vim.keymap.set("n", "<leader>vt", "<cmd>lua vim.diagnostic.config({virtual_lines = true})<CR>", { desc = "Toggle virtual lines on"})`
 Toggle virtual text on ('v' for virtual, 't' for true)
 
 
