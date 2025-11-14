@@ -12,3 +12,9 @@ vim.keymap.set("n", "<leader>lg", builtin.live_grep, { desc = "Telescope live gr
 vim.keymap.set("n", "<leader>fb", builtin.buffers, { desc = "Telescope buffers" })
 vim.keymap.set("n", "<leader>sh", builtin.help_tags, { desc = "Telescope help tags" })
 vim.keymap.set("n", "<leader>sk", builtin.keymaps, { desc = "[S]earch [K]eymaps" })
+
+
+-- Toggle virtual text
+vim.keymap.set("n", "<leader>vf", "<cmd>lua vim.diagnostic.config({virtual_text = false})<CR>", { desc = "Toggle virtual text off"})
+vim.keymap.set("n", "<leader>vt", "<cmd>lua vim.diagnostic.config({virtual_text = true})<CR>", { desc = "Toggle virtual text on"})
+

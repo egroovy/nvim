@@ -51,6 +51,13 @@ Insert line below and stay in normal mode
 `vim.keymap.set("n", "<S-CR>", "O<ESC>j"`  
 Insert line above and stay in normal mode
 
+`vim.keymap.set("n", "<leader>vf", "<cmd>lua vim.diagnostic.config({virtual_text = false})<CR>", { desc = "Toggle virtual text off"})`
+Toggle virtual text off ('v' for virtual, 'f' for false)
+
+`vim.keymap.set("n", "<leader>vt", "<cmd>lua vim.diagnostic.config({virtual_text = true})<CR>", { desc = "Toggle virtual text on"})`
+Toggle virtual text on ('v' for virtual, 't' for true)
+
+
 ## mini.surround
 `sa` - surround add (must combine with text object or motion. Ex: `saiw"` = surround inner word with quotes)  
 `sd` - delete surrounding (can combine with text object or motion but not required. You could just do `sd"` to remove the quotes around text)  
