@@ -52,7 +52,7 @@ vim.diagnostic.config {
             [vim.diagnostic.severity.HINT] = '󰌶 ',
         },
     } or {},
-    virtual_lines = {
+    virtual_lines = false, {
         source = 'if_many',
         spacing = 2,
         format = function(diagnostic)
