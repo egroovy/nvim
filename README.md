@@ -31,7 +31,7 @@ This is my Neovim config
 
 
 
-- Install ripgrep for live grep (Optional)  
+Install ripgrep for live grep (Optional)  
 **MacOS install**  
 
     brew install ripgrep
