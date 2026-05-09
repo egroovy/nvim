@@ -16,22 +16,22 @@ This is my Neovim config
 
 <details>
     <summary>Repo links:</summary>
-    autopairs - https://github.com/windwp/nvim-autopairs  
-    blink.cmp - https://github.com/saghen/blink.cmp  
-    gitsigns - https://github.com/lewis6991/gitsigns.nvim  
-    lazydev - https://github.com/folke/lazydev.nvim  
-    mason - https://github.com/mason-org/mason.nvim  
-    mason-lspconfig - https://github.com/mason-org/mason-lspconfig.nvim  
-    midnight-theme - https://github.com/dasupradyumna/midnight.nvim  
-    mini-surround - https://github.com/nvim-mini/mini.surround  
-    neotab - https://github.com/kawre/neotab.nvim  
-    nvim-lspconfig - https://github.com/neovim/nvim-lspconfig  
-    telescope - https://github.com/nvim-telescope/telescope.nvim  
-    - Install ripgrep for live grep (Optional)  
+    autopairs - https://github.com/windwp/nvim-autopairs<br>
+    blink.cmp - https://github.com/saghen/blink.cmp<br>
+    gitsigns - https://github.com/lewis6991/gitsigns.nvim<br>
+    lazydev - https://github.com/folke/lazydev.nvim<br>
+    mason - https://github.com/mason-org/mason.nvim<br>
+    mason-lspconfig - https://github.com/mason-org/mason-lspconfig.nvim<br>
+    midnight-theme - https://github.com/dasupradyumna/midnight.nvim<br> 
+    mini-surround - https://github.com/nvim-mini/mini.surround<br>
+    neotab - https://github.com/kawre/neotab.nvim<br>
+    nvim-lspconfig - https://github.com/neovim/nvim-lspconfig<br>
+    telescope - https://github.com/nvim-telescope/telescope.nvim<br>
 </details>
 
 
 
+- Install ripgrep for live grep (Optional)  
 **MacOS install**  
 
     brew install ripgrep
